@@ -1,0 +1,3 @@
+FROM tomcat
+COPY target/*.war $CATALINA_HOME/webapps/
+
